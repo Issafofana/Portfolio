@@ -1,0 +1,395 @@
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+:root{
+    --fofana: #000;
+    --issa: #59aa88;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(252, 250, 250);
+    background-size: cover;
+    position: sticky;
+    top: 0;
+    padding: 2px 0;
+    scroll-behavior: smooth;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:var(--fofana) ;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+nav .porfil{
+    display: flex;
+    align-items: center;
+}
+nav .porfil img{
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+header{
+    background: url("../image/entete/web-design-2906159_1280.jpg");
+    background-size: cover;
+    margin: 0;
+    max-width: 100%;
+    height: 510px;
+    position: relative;
+}
+
+ nav ul li a:hover{
+    border-bottom: 1px solid var(--issa);
+    color: #0e3d5c;
+}
+ .nom{
+    position: absolute;
+    left: 32%;
+    top: 180px;
+    max-width: 80%;
+    box-shadow: 5px 5px 10px var(--fofana);
+    background-color: rgba(0, 0, 0, 0.116);
+}
+ .nom h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4em;
+    color: var(--issa);
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+ .nom p{
+    font-size: 2.7em;
+    color: var(--issa);
+    font-weight: bold;
+   margin-top: -0.2px;
+}
+
+/*section apropos*/
+h2{
+    margin-left: 12px;
+    background-color: rgba(1, 113, 133, 0.801);
+    display: inline-block;
+    font-size: 35px;
+    font-weight: bold;
+    color: whitesmoke;
+    border-radius: 7px 0 0 0;
+}
+.section-apropos{
+    width: 100%;
+}
+.section-apropos .contenair-section{
+    display: flex;
+}
+.section-apropos .profil{
+    max-width: 30%;
+    margin-left: 12px;
+}
+.section-apropos .profil img{
+    width: 350px;
+    height: 460px;
+    object-fit: cover;
+}
+.section-apropos .parti-droite-apropos{
+    margin: 0 10px;
+    width: 70%;
+    background-color: #cccccc48;
+}
+.section-apropos .parti-droite-apropos h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(2, 76, 126);
+}
+.section-apropos .parti-droite-apropos .info {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.section-apropos .parti-droite-apropos .info span{
+    color: rgb(24, 90, 102);
+    font-size: 19px;
+}
+.section-apropos .parti-droite-apropos .info h5{
+    font-size: 25px;
+    margin-top: -16px;
+}
+.section-apropos .parti-droite-apropos .info p{
+    margin-top: -38px;
+    margin-left: 5px;
+}
+.parti-droite-apropos .info-text{
+    margin-left: 10px;
+    margin-top: -20px;
+}
+.parti-droite-apropos .info-text p{
+    line-height: 30px;
+    font-size: 20px;
+}
+/*section competence*/
+
+.section-competence{
+    width: 100%;
+}
+.section-competence .contenair-competence{
+    margin-left: 12px;
+}
+.section-competence .contenair-competence h6{
+    font-size: 20px;
+    color: rgb(18, 86, 107);
+    margin-top: 2px;
+    text-transform: uppercase;
+}
+
+/*section education*/
+
+.section-educations{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+}
+.parti-gauche-education{
+    width: 30%;
+    margin-left: 12px;
+    margin-top: -36px;
+}
+.parti-gauche-education h4{
+    background-color: rgba(187, 252, 102, 0.575);
+    padding: 7px;
+    border-radius: 9px;
+    box-shadow: 2px 3px 0px rgb(90, 88, 88);
+    color: #024058;
+    font-weight: 500;
+    display: inline-block;
+}
+.parti-droit-education{
+    width: 55%;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+/*section contact*/
+
+.section-contact form{
+    display: flex;
+}
+form .parti-gauche-contact{
+    width: 50%;
+    margin-left: 10px;
+}
+form .parti-gauche-contact .addresse {
+    display: flex;
+    margin-top: 20px;
+    max-width: 100%;
+}
+form .parti-gauche-contact .addresse h6{
+    font-size: 17px;
+    margin: 0;
+    padding: 12px 5px;
+}
+.parti-gauche-contact .addresse .icones{
+    margin: 7px 0;
+}
+.parti-gauche-contact .addresse .icones i{
+    font-size: 18px;
+    color: rgb(253, 251, 251);
+    background-color: #00597cad;
+    padding:8px;
+    border-radius: 50%;
+}
+.parti-gauche-contact .addresse .icones i:hover{
+    background-color: #1a3170ec;
+}
+form .parti-gauche-contact .addresse address, a{
+    padding: 15px 3px;
+    font-size: 15px;
+    color: #4d4c4c;
+    margin: 0;
+    text-decoration: none;
+}
+form .parti-droit-contact{
+    width: 45%;
+    margin-left: 12px;
+    box-shadow: 2px 2px 5px rgb(252, 250, 250) inset; 
+    background-color: #dddcdc5e;
+}
+form .parti-droit-contact p{
+    margin: 5px 50px;
+}
+form .parti-droit-contact label{
+    display: block;
+    padding: 2px 2px;
+}
+form .parti-droit-contact input{
+    outline: none;
+    width: 350px;
+    padding: 9px 2px;
+    border: 1px solid rgba(117, 116, 116, 0.699);
+}
+form .parti-droit-contact input:hover{
+    border-color: rgba(0, 110, 255, 0.849);
+}
+textarea:hover{
+    border-color: rgb(136, 136, 192);
+}
+form .parti-droit-contact textarea{
+    width: 350px;
+    height: 100px;
+    border: 1px solid rgba(44, 44, 44, 0.774);
+    outline: none;
+}
+form .parti-droit-contact input[type="submit"]{
+    width: 147px;
+    border: none;
+    background-color: rgb(8, 52, 82);
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+form .parti-droit-contact input[type="submit"]:hover{
+    background-color: rgb(26, 89, 141);
+}
+
+/* footer*/
+footer{
+    max-width: 100%;
+}
+footer p{
+    text-align: center;
+    font-style: italic;
+    color: var(--issa);
+}
+
+/* responsivité*/
+
+@media (max-width:700px){
+    body{
+        border: 1px solid rgba(196, 194, 194, 0.24);
+    }
+     nav{
+        justify-content: center;
+        max-width: 100%;
+    }
+     nav ul{
+        display: none;
+    }
+     nav ul li a{
+        font-size: 20px;
+        color: #e7e7e7;
+        
+    }
+    header{
+        max-width: 100%;
+    }
+    header .nom{
+        margin-left: -50px;
+    }
+    header .nom h1{
+        font-size: 2.8em;
+        text-align: center;
+        margin: 0;
+    }
+    header .nom p{
+        font-size: 2em;
+    }
+    .section-apropos .contenair-section{
+        flex-direction: column;
+    }
+    .profil{
+        width: 80%;
+    }
+    .section-apropos .contenair-section .profil img{
+        width: 368px;
+        max-height: 500px;
+       margin: auto;
+       border-radius: 7px;
+    }
+    .section-apropos .contenair-section .infos{
+        margin: 20px 0;
+    }
+    .section-apropos .contenair-section .info h5{
+        font-size: 18px;
+    }
+    .section-apropos .contenair-section .parti-droite-apropos{
+        width: 100%;
+        margin: 0;
+    }
+    .section-apropos .contenair-section .parti-droite-apropos p{
+        font-size: 14px;
+        margin-top: -20px;
+        padding: 0 10px;
+    }
+
+    .section-competence .contenair-competence{
+        margin: 0;
+        padding: 0 12px;
+    }
+
+    
+    .section-educations{
+        flex-direction: column;
+       margin-top: -20px;
+    }
+    .parti-gauche-education{
+        width: 100%;
+    }
+    .parti-droit-education{
+        width: 100%;
+        margin: 0;
+    }
+    .parti-droit-education .addresse{
+        margin: 0;
+        padding: 0 12px;
+    }
+    .parti-droit-education p, h3{
+        margin-left: 10px;
+    }
+
+    .section-contact{
+        margin: 0;
+        width: 100%;
+    }
+    .section-contact form{
+        flex-direction: column;
+        width: 100%;
+    }
+    form .parti-gauche-contact{
+        max-width: 100%;
+        margin: 0;
+    }
+    form .parti-gauche-contact .addresse{
+        margin: 0;
+        padding: 0 12px;
+    }
+    
+    form .parti-droit-contact{
+        width: 100%;
+        margin: 0;
+    }
+    form .parti-droit-contact p{
+        margin: 0;
+        padding: 12px;
+    }
+    form .parti-droit-contact input[type="submit"]{
+        background-color: rgb(95, 114, 9);
+    }
+}

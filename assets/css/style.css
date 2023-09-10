@@ -8,6 +8,7 @@ body{
 :root{
     --fofana: #000;
     --issa: #59aa88;
+    --white-color: #fff;
 }
 
 nav{
@@ -60,7 +61,7 @@ header{
 }
  .nom{
     position: absolute;
-    left: 32%;
+    left: 40%;
     top: 180px;
     max-width: 80%;
     box-shadow: 5px 5px 10px var(--fofana);
@@ -69,7 +70,7 @@ header{
  .nom h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 4em;
-    color: var(--issa);
+    color: var(--white-color);
     font-weight: bold;
     margin: 0;
     text-align: center;

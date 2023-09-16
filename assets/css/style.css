@@ -8,6 +8,7 @@ body{
 :root{
     --fofana: #000;
     --issa: #59aa88;
+    --white-color: #fff;
 }
 
 nav{
@@ -60,7 +61,7 @@ header{
 }
  .nom{
     position: absolute;
-    left: 32%;
+    left: 40%;
     top: 180px;
     max-width: 80%;
     box-shadow: 5px 5px 10px var(--fofana);
@@ -86,6 +87,7 @@ h2{
     margin-left: 12px;
     background-color: rgba(1, 113, 133, 0.801);
     display: inline-block;
+    padding: 5px 10px;
     font-size: 35px;
     font-weight: bold;
     color: whitesmoke;

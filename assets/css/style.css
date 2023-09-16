@@ -11,6 +11,8 @@ body{
     --white-color: #fff;
 }
 
+
+
 nav{
     display: flex;
     align-items: center;
@@ -110,6 +112,8 @@ h2{
     width: 350px;
     height: 460px;
     object-fit: cover;
+    border-radius: 10px;
+    border: 6px solid #ccc;
 }
 .section-apropos .parti-droite-apropos{
     margin: 0 10px;
